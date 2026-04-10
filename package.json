@@ -1,0 +1,25 @@
+{
+  "name": "populacao-brasil-ibge",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Dashboard interativo com dados do Censo IBGE - População do Brasil (1872-2126)",
+  "author": "Prof. Maicon Kirsten",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.1.1",
+    "vite": "^5.4.0"
+  }
+}
